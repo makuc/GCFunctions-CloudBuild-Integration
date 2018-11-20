@@ -1,4 +1,4 @@
-# Easy deployments and deletions of groups of functions to Google Cloud Functions
+# Easy deployments and deletions of a group of functions to Google Cloud Functions
 
 ## Overview
 
