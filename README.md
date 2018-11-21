@@ -148,7 +148,7 @@ more).
 Uploading tarball of [.] to [gs://<PROJECT_NAME>_cloudbuild/source/<ommitted>.tgz]
 Created [https://cloudbuild.googleapis.com/v1/projects/<PROJECT_NAME>/builds/<ommitted>].
 Logs are available at [https://console.cloud.google.com/gcr/builds/<ommitted>].
----------------------------------------------------------------------------- REMOTE BUILD OUTPUT -----------------------------------------------------------------------------
+-------------------------------------------- REMOTE BUILD OUTPUT ----------------------------------------------------
 starting build "<ommitted>"
 
 FETCHSOURCE
@@ -197,7 +197,7 @@ Step #1: versionId: '1'
 Finished Step #1
 PUSH
 DONE
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 ID          CREATE_TIME                DURATION  SOURCE                                                IMAGES  STATUS
 <ommitted>  2018-11-20T09:49:12+00:00  1M1S      gs://<PROJECT_NAME>_cloudbuild/source/<ommitted>.tgz  -       SUCCESS
