@@ -201,6 +201,7 @@ DONE
 
 ID                                    CREATE_TIME                DURATION  SOURCE                                                                                    IMAGES  STATUS
 49b91d6f-9bcc-4665-9a43-35ebdb7d62ea  2018-11-20T09:49:12+00:00  1M1S      gs://<PROJECT_NAME>_cloudbuild/source/1542707346.42-e368b3faa3b2416caf8bc35530152c64.tgz  -       SUCCESS
+```
 
 ### Test that the deployment worked
 
