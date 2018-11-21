@@ -43,8 +43,7 @@ as starter code.
 
 When you're done, your `index.js` should look something like this:
 
-```console
-$ cat autodeploy/index.js
+```js
 /**
  * HTTP Cloud Function.
  *
@@ -71,8 +70,7 @@ Cloud Functions.
 
 When you're done, your `cloudbuild.yaml` should look something like this:
 
-```console
-$ cat cloudbuild.yaml
+```yaml
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['functions', 'deploy', '${_PREFIX}-func1', '--trigger-http', '--entry-point', 'helloHttp', '--runtime', 'nodejs8']
